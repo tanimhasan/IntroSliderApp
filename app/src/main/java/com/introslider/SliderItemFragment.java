@@ -22,6 +22,7 @@ public class SliderItemFragment extends Fragment {
   private static final int[] PAGE_TITLES =
       new int[] { R.string.discover, R.string.shop, R.string.offers, R.string.rewards };
 
+
   // prepare all subtitle ids arrays
   @StringRes
   private static final int[] PAGE_TEXT =
@@ -87,7 +88,7 @@ public class SliderItemFragment extends Fragment {
     TextView titleText = view.findViewById(R.id.textView2);
     ImageView imageView = view.findViewById(R.id.imageView);
 
-    
+
     // set page title
     title.setText(PAGE_TITLES[position]);
     // set page sub title text
